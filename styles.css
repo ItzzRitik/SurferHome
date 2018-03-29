@@ -295,15 +295,10 @@ body, html {
 @media (max-width: 376px) 
 {
 	#mainNav .brand_pane{
-		position: absolute;
-		pointer-events: none;
-		width: 100%;
-		text-align: center;
-		left: 0;
-		top: 0;
-		margin: auto;
-		height:100%;
-		padding-top:7px; 
+		display:flex; 
+		justify-content:center; 
+		align-items:center; 
+		width:100%;
 	}
 	#mainNav .navbar-brand {
 		background-color: #fff;
