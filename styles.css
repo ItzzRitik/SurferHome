@@ -21,6 +21,7 @@ body, html {
 }
 .text_div{
 		max-width: 80%;
+		margin-top: 10%;
 	}
 .heading{
 	font-size: 2rem;
@@ -269,11 +270,16 @@ body, html {
 }
 @media (max-width: 480px) 
 {
+	.text_div{
+		max-width: 80%;
+		margin-top: 10%;
+	}
 	.heading{
 		font-size: 1.5rem;
 	}
 	.details{
-		font-size: 0.5rem;
+		font-size: 1rem;
+		margin-top: -30px;
 		color: #fff;
 	}
 	#mainNav .brand_pane{
