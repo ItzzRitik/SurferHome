@@ -285,7 +285,7 @@ body, html {
 	#mainNav .brand_pane{
 		position: absolute;
 		pointer-events: none;
-		width: 110%;
+		width: 104%;
 		text-align: center;
 		left: 0;
 		top: 0;
