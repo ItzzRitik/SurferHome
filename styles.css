@@ -69,18 +69,19 @@ body, html {
 	padding: 20px;
 	float: left;
 	margin: 5.5px 0 0 20px;
-
 	background: url("img_data/logo_black.svg") no-repeat center;
 	background-size: 40px;
 }
 #mainNav .nav-menu-button{
+	position: absolute;
 	background-color: #fff;
-	border-radius: 60px;
-	width: 120px;
+	border-radius: 0 60px 60px 0;
+	width: 80px;
 	height: 60px;
 	top: 0%;
+	left: 0%;
 	padding: 12.5px 5px;
-	margin: 8px 0 0 -75px;
+	margin: 10px 0 0 0;
 }
 #mainNav .navbar-toggler {
 	border: 0;
@@ -91,7 +92,7 @@ body, html {
 	justify-content: space-between;
 	cursor: pointer;
 	transition: transform .2s ease-out;
-	margin: 0 0 0 60px;
+	margin: 0 0 0 20px;
 }
 #mainNav .navbar-toggler.open {
 	transform: rotate(-45deg);  
@@ -264,6 +265,17 @@ body, html {
 }
 @media (max-width: 480px) 
 {
+	#mainNav .brand_pane{
+		position: absolute;
+		pointer-events: none;
+		width: 100%;
+		text-align: center;
+		left: 0;
+		top: 0;
+		margin: auto;
+		height:100%;
+		padding-top:7px; 
+	}
 	#mainNav .navbar-brand {
 		background-color: #fff;
 		border-radius: 60px;
@@ -291,7 +303,7 @@ body, html {
 		top: 0;
 		margin: auto;
 		height:100%;
-		padding-top:10px; 
+		padding-top:7px; 
 	}
 	#mainNav .navbar-brand {
 		background-color: #fff;
