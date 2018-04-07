@@ -34,8 +34,7 @@ body, html {
 	position:absolute;
 	border: 0;
 	background-color: #fff;
-	width: 30%;
-	max-width: 50%;
+	width: 250px;
 	left: 0;
 	top: 0;
 	margin-left: -500px;
@@ -194,7 +193,8 @@ body, html {
 {
 
 	.sidebar{
-		visibility: hidden;
+		width: 0;
+		transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
 	}
 	.heading{
 		font-size: 2.5rem;
@@ -241,13 +241,7 @@ body, html {
 		font-size: 26px;
 	}
 	#mainNav .nav-menu-button{
-		background-color: transparent;
-		border-radius: 60px;
-		width: 360px;
-		height: 55px;
-		top: 0%;
-		padding: 10px 2.5px;
-		margin-top: 0px;
+		margin-left: -80px;
 	}
 	#mainNav .navbar-toggler {
 		border: 0;
@@ -287,6 +281,8 @@ body, html {
 }
 @media (max-width: 480px) 
 {
+	.sidebar{
+	}
 	.text_div{
 		max-width: 80%;
 		margin-top: 10%;
