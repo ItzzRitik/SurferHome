@@ -30,23 +30,23 @@ body, html {
 	font-size: 1rem;
 	color: #fff;
 }
-.sidebar{
-	position:absolute;
-	border: 0;
-	background-color: #fff;
-	width: 250px;
-	left: 0;
-	top: 0;
-	margin-left: -250px;
-	z-index: 1030;
-	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
-}
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;
 }
 @media (min-width: 480px) 
 {
+	.sidebar{
+		position:absolute;
+		border: 0;
+		background-color: #fff;
+		width: 250px;
+		left: 0;
+		top: 0;
+		margin-left: -250px;
+		z-index: 1030;
+		transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
+	}
 	#mainNav {
 		position: none;
 		border-color: rgba(34, 34, 34, 0.05);
@@ -279,6 +279,17 @@ body, html {
 }
 @media (max-width: 480px) 
 {
+	.sidebar{
+		position:absolute;
+		border: 0;
+		background-color: #fff;
+		width: 250px;
+		left: 0;
+		top: 0;
+		margin-left: -250px;
+		z-index: 1030;
+		transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
+	}
 	.text_div{
 		max-width: 80%;
 		margin-top: 10%;
