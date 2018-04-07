@@ -13,11 +13,13 @@
 		<div class="brand_pane">
 			<a class="navbar-brand" href="#Home"><img class="logo" src="img_data/logo_white.svg"><p>SURFER</p></a>
 		</div>
-		<div class="nav-menu-button">
-			<div class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<div class="line-menu half start"></div>
-				<div class="line-menu"></div>
-				<div class="line-menu half end"></div>
+		<div class="sidebar sidebar-move">
+			<div class="nav-menu-button sidebar-button-move">
+				<div class="navbar-toggler" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<div class="line-menu half start"></div>
+					<div class="line-menu"></div>
+					<div class="line-menu half end"></div>
+				</div>
 			</div>
 		</div>
 		<div class="navbar-menu collapse navbar-collapse " id="navbarResponsive">
@@ -34,6 +36,8 @@
 			</ul>
 		</div>
 	</nav>
+
+	
 
 	<div id="pagepiling">
 		<header class="section cover" data-anchor="Home">
@@ -82,6 +86,7 @@
 		</section>
 	</div>
 
+
 	<script src="styles_scripts/jquery-3.2.1.slim.min.js"></script>
 	<script src="styles_scripts/bootstrap.min.js"></script>
 	<script src="styles_scripts/jquery.pagepiling.min.js"></script>
@@ -90,6 +95,24 @@
 		wrapperMenu.addEventListener('click', function(){
 			wrapperMenu.classList.toggle('open');  
 		})
+
+		$(window).resize(function() { 
+			$('.sidebar').css('height', $(window).height());
+			$(".sidebar-move").css("margin-left",0-$('.sidebar').width());
+		});
+		$('.sidebar').css('height', $(window).height());
+		$(".sidebar-move").css("margin-left",0-$('.sidebar').width());
+		var nav_vis = false;
+		$(function(){
+			$(".navbar-toggler").click(function(){
+				if(nav_vis){
+					$(".sidebar-move").css("margin-left",0-$('.sidebar').width());nav_vis=false;
+				}
+				else{
+					$(".sidebar-move").css("margin-left","0px");nav_vis=true;
+				}
+			}); 
+		});
 
 		$('#pagepiling').pagepiling({
 			menu: '#navmenu',
