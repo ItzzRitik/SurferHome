@@ -103,12 +103,12 @@ body, html {
 	border: 0;
 	background-color: #fff;
 	border-radius: 0 60px 60px 0;
-	width: 81px;
+	width: 80px;
 	height: 60px;
 	top: 0;
 	right: 0;
 	padding: 12.5px 5px;
-	margin: 10px -80px 0 0;
+	margin: 10px -75px 0 0;
 	transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
 }
 #mainNav .navbar-toggler {
