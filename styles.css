@@ -208,6 +208,10 @@ body, html {
 		border-color: transparent;
 		background-color: transparent;
 	}
+	#mainNav .nav-menu-button{
+		margin-right: 0;
+		transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
+	}
 	#mainNav .navbar-menu { position: absolute;left: 7%;top: 50%; margin: -15px 0 0 0;}
 	#mainNav .navbar-brand {
 		background-color: transparent;
@@ -239,14 +243,6 @@ body, html {
 	#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
 		color: #fff;
 		font-size: 26px;
-	}
-	#mainNav .nav-menu-button{
-		margin-left: -80px;
-	}
-	#mainNav .navbar-toggler {
-		border: 0;
-		width: 0;
-		height: 0;
 	}
 	#mainNav .navbar-nav > li > a,
 	#mainNav .navbar-nav > li > a:focus {
