@@ -100,6 +100,7 @@ body, html {
 }
 #mainNav .nav-menu-button{
 	position: absolute;
+	border: 0;
 	background-color: #fff;
 	border-radius: 0 60px 60px 0;
 	width: 80px;
