@@ -91,7 +91,11 @@
 	<script src="styles_scripts/bootstrap.min.js"></script>
 	<script src="styles_scripts/jquery.pagepiling.min.js"></script>
 	<script type="text/javascript">
-		
+		var wrapperMenu = document.querySelector('.navbar-toggler');
+		wrapperMenu.addEventListener('click', function(){
+			wrapperMenu.classList.toggle('open');  
+		})
+
 		$('.sidebar').css('height', $(window).height());
 		var nav_vis = false;
 		$(function(){
