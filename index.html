@@ -96,15 +96,7 @@
 			wrapperMenu.classList.toggle('open');  
 		})
 
-		// $(window).resize(function() { 
-		// 	if($(window).width() < 992) {
-		// 		$(".sidebar-move").css("margin-left",0-$('.sidebar').width());
-		// 	}
-		// });
 		$('.sidebar').css('height', $(window).height());
-		if($(window).width() < 992) {
-			$(".sidebar-move").css("margin-left",0-$('.sidebar').width());
-		}
 		var nav_vis = false;
 		$(function(){
 			$(".navbar-toggler").click(function(){
