@@ -39,7 +39,7 @@ body, html {
 	top: 0;
 	margin-left: -250px;
 	z-index: 1030;
-	transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
+	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
 }
 
 #pp-nav li .active span, .pp-slidesNav .active span {
@@ -109,7 +109,7 @@ body, html {
 	right: 0;
 	padding: 12.5px 5px;
 	margin: 10px -70px 0 0;
-	transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
+	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
 }
 #mainNav .navbar-toggler {
 	border: 0;
@@ -119,7 +119,7 @@ body, html {
 	flex-direction: column;
 	justify-content: space-between;
 	cursor: pointer;
-	transition: transform .2s ease-out;
+	transition: transform .55s ease-in;
 	margin: 0 0 0 20px;
 }
 #mainNav .navbar-toggler.open {
@@ -137,7 +137,7 @@ body, html {
 }
 
 #mainNav .navbar-toggler .line-menu.start {
-	transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+	transition: transform .55s cubic-bezier(0.54, -0.81, 0.57, 0.57);
 	transform-origin: right;
 }
 
@@ -147,7 +147,7 @@ body, html {
 
 #mainNav .navbar-toggler .line-menu.end {
 	align-self: flex-end;
-	transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+	transition: transform .55s cubic-bezier(0.54, -0.81, 0.57, 0.57);
 	transform-origin: left;
 }
 
