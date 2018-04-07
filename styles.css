@@ -37,7 +37,7 @@ body, html {
 	width: 250px;
 	left: 0;
 	top: 0;
-	margin-left: -500px;
+	margin-left: -250px;
 	z-index: 1030;
 	transition: all .5s cubic-bezier(0.48, 0.03, 0, 0.97);
 }
