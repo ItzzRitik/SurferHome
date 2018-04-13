@@ -47,7 +47,7 @@ body, html {
 	line-height: 60px;
 	text-align: center;
 	font-size: 22px;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .nav_items{
@@ -99,7 +99,7 @@ body, html {
 	top: 0;
 	margin: auto;
 	height:100%;
-	padding-top:10px; 
+	padding-top:20px; 
 }
 #mainNav .navbar-brand {
 	background-color: #fff;
@@ -142,7 +142,7 @@ body, html {
 	height: 60px;
 	top: 0;
 	right: 0;
-	margin: 10px -70px 0 0;
+	margin: 20px -70px 0 0;
 	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
 }
 #mainNav .navbar-toggler {
@@ -249,7 +249,7 @@ body, html {
 		width: 300px;
 		height: 80px;
 		text-align: center;
-		margin-top: 7px;
+		margin-top: -3px;
 		transition: all .2s ease-in;
 	}
 	#mainNav .navbar-brand > .logo{
@@ -331,7 +331,7 @@ body, html {
 		top: 0;
 		margin: auto;
 		height:100%;
-		padding-top:7px; 
+		padding-top:17px; 
 	}
 	#mainNav .navbar-brand {
 		background-color: #fff;
