@@ -90,14 +90,14 @@ body, html {
 	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
 	transform: translate(-50%, -50%);
 	z-index: -1;
-} 
+} /*
 .nav_items:hover {
   color: #000;
 }
 .nav_items:hover span {
   width: 225%;
   height: 562.5px;
-}
+}*/
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;
