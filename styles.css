@@ -51,7 +51,6 @@ body, html {
 	font-size: 22px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	box-shadow: -10px 10px 100px #000, -10px -10px 100px #000;
 }
 .nav_items{
 	position: relative;
@@ -65,11 +64,15 @@ body, html {
 	text-align: center;
 	font-size: 16px;
 	transition: all .3s ease-in;
+	background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, #fff 50%);
+    transition: background-position 0.2s;
 }
 .nav_items:hover {
-	background-color: #fff;
+	/*background-color: #fff;*/
 	color: #000;
 	font-weight: 700;
+	background-position: -100% 0%;
 }
 .nav_span
 { 
@@ -104,7 +107,7 @@ body, html {
 	top: 0;
 	margin: auto;
 	height:100%;
-	padding-top:20px; 
+	padding-top:20px;
 }
 #mainNav .navbar-brand {
 	background-color: #fff;
@@ -113,7 +116,7 @@ body, html {
 	width: 200px;
 	height: 60px;
 	text-align: end;
-	transition: all .2s ease-in;
+	transition: all .2s ease-in; 
 }
 #mainNav .navbar-brand > p {
 	color: #000;
