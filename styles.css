@@ -89,14 +89,14 @@ a{
 	left: 0%;
 	top: 50%;
 	border-radius: 50%;
-	background-color: #fff;
 	transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 	transform: translate(-50%, -50%);
 	z-index: -1;
 } 
-.nav_items:active span{
-	background-color: #eee;
-}
+#nav_h span{background-color: #47351D;}
+#nav_d span{background-color: #007BFF;}
+#nav_f span{background-color: #F44336;}
+#nav_c span{background-color: #9C27B0;}
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;

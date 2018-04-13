@@ -130,25 +130,17 @@
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
-			$("#"+this.id).css({
-				'color' : '#000',
-				'font-weight' : '700'
-			});
 			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
-				'width' : '500px',
-				'height' : '500px'
+				'width' : '525px',
+				'height' : '525px'
 			});
 		});
 		$(".nav_items").mouseleave(function(e){
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
-			$("#"+this.id).css({
-				'color' : '#fff',
-				'font-weight' : '300'
-			});
 			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
@@ -163,7 +155,7 @@
 			direction: 'vertical',
 			scrollingSpeed: 550,
 			anchors: ['Home', 'Download', 'Features', 'Contact'],
-			sectionsColor: ['#121212', '#007BFF','#F44336', '#9C27B0'],
+			sectionsColor: ['#47351D', '#007BFF','#F44336', '#9C27B0'],
 			navigation: {
 				'position': 'right',
 				'textColor': '#fff',
