@@ -129,6 +129,10 @@
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
+			$("#"+this.id).css({
+				'color' : '#000',
+				'font-weight' : '700'
+			});
 			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
@@ -140,6 +144,10 @@
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
+			$("#"+this.id).css({
+				'color' : '#fff',
+				'font-weight' : '300'
+			});
 			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
