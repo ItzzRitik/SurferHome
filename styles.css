@@ -38,7 +38,17 @@ body, html {
 	left: 0;
 	top: 0;
 	margin-left: -250px;
+	z-index: 1031;
 	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
+}
+.sidebar_cover{
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.7);
+	z-index: 1030;
 }
 .nav_head{
 	width: 100%;
@@ -65,11 +75,10 @@ body, html {
 	font-size: 16px;
 	transition: all .3s ease-in;
 	background-size: 200% 100%;
-    background-image: linear-gradient(to right, transparent 50%, #fff 50%);
-    transition: background-position 0.2s;
+	background-image: linear-gradient(to right, transparent 50%, #fff 50%);
+	transition: background-position 0.2s;
 }
 .nav_items:hover {
-	/*background-color: #fff;*/
 	color: #000;
 	font-weight: 700;
 	background-position: -100% 0%;
