@@ -94,6 +94,9 @@ a{
 	transform: translate(-50%, -50%);
 	z-index: -1;
 } 
+.nav_items:active span{
+	background-color: #eee;
+}
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;
