@@ -7,6 +7,9 @@ body, html {
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none !important;
+}
 .cover{
 	background: url("img_data/back.jpg") no-repeat center center fixed;
 	height: 100%;
@@ -91,10 +94,6 @@ body, html {
 	transform: translate(-50%, -50%);
 	z-index: -1;
 } 
-.nav_items:hover {
-  color: #000;
-  font-weight: 700;
-}
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;
