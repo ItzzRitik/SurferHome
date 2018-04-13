@@ -102,7 +102,11 @@
 		})
 
 		$(".sidebar").css('height', $(window).height());
-		$(".sidebar_cover").fadeOut(800);
+		$(document).ready(function(){
+			$(".sidebar_cover").css("background-color","rgba(0,0,0,0.7)");
+			$(".sidebar_cover").fadeOut(800);
+		});
+		
 		$(".navbar-toggler").click(function(){
 			if(parseFloat($(".sidebar").css('marginLeft')) >= 0){
 				$(".sidebar-move").css("margin-left",0-$('.sidebar').width());$(".sidebar_cover").fadeOut(800);
