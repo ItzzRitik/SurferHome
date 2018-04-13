@@ -51,6 +51,7 @@ body, html {
 	font-size: 22px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	box-shadow: -10px 10px 100px #000, -10px -10px 100px #000;
 }
 .nav_items{
 	position: relative;
