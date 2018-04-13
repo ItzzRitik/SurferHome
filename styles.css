@@ -87,17 +87,13 @@ body, html {
 	top: 50%;
 	border-radius: 50%;
 	background-color: #fff;
-	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+	transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
 	transform: translate(-50%, -50%);
 	z-index: -1;
-} /*
+} 
 .nav_items:hover {
   color: #000;
 }
-.nav_items:hover span {
-  width: 225%;
-  height: 562.5px;
-}*/
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;

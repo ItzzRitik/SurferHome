@@ -126,27 +126,21 @@
 		});
 
 		$(".nav_items").mouseenter(function(e){
-			//alert("e.pageX: " + e.pageX + ", e.pageY: " + e.pageY);
-			// alert("#"+this.id);
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
-			var target="#"+this.id +" span";
-			$(target).css({
+			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
-				'width' : relativeX*2*1.4,
-				'height' : relativeX*2*1.4
+				'width' : '500px',
+				'height' : '500px'
 			});
-			//alert("e.pageX: " + relativeX + ", e.pageY: " + relativeY);
 		});
 		$(".nav_items").mouseleave(function(e){
 			var offset = $(this).offset();
 			var relativeX = (e.pageX - offset.left);
 			var relativeY = (e.pageY - offset.top);
-			var target="#"+this.id +" span";
-			var target="#"+this.id +" span";
-			$(target).css({
+			$("#"+this.id +" span").css({
 				'left' : relativeX,
 				'top' : relativeY,
 				'width' : '0',
