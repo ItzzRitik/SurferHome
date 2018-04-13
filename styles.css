@@ -48,11 +48,14 @@ body, html {
 	text-align: center;
 	font-size: 22px;
 	margin-top: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 .nav_items{
+	position: relative;
 	width: 100%;
 	height: 60px;
+	cursor: pointer;
+	font-weight: 100;
 	color: #fff;
 	line-height: 60px;
 	text-align: center;
@@ -60,14 +63,16 @@ body, html {
 	transition: all .3s ease-in;
 }
 .nav_items:hover {
-	width: 100%;
-	height: 60px;
 	background-color: #fff;
 	color: #000;
-	line-height: 60px;
-	text-align: center;
-	font-size: 16px;
 }
+.nav_span
+{ 
+	position:absolute; 
+	left: 0;
+	width: 100%;
+	height: 60px;
+}  
 
 #pp-nav li .active span, .pp-slidesNav .active span {
 	background: #fff;
