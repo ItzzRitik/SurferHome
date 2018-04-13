@@ -255,6 +255,10 @@ body, html {
 		font-size: 1rem;
 		color: #fff;
 	}
+	.sidebar_cover{
+		display: none;
+		transition: all .8s ease-in;
+	}
 	#mainNav {
 		height: 120px;
 		border-color: transparent;

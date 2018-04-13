@@ -103,7 +103,7 @@
 
 		$(".sidebar").css('height', $(window).height());
 		$(document).ready(function(){
-			$(".sidebar_cover").css("background-color","rgba(0,0,0,0.7)");
+			$(".sidebar_cover").css("background-color","rgba(0,0,0,0.8)");
 			$(".sidebar_cover").fadeOut(800);
 		});
 		
@@ -119,6 +119,9 @@
 			$('.navbar-toggler').click();
 			$(".sidebar-move").css("margin-left",0-$('.sidebar').width());
 		}); 
+		$(".sidebar_cover").click(function(){
+			if(parseFloat($(".sidebar").css('marginLeft')) == 0){$('.navbar-toggler').click();}
+		});
 
 		$('#pagepiling').pagepiling({
 			menu: '#navmenu',
