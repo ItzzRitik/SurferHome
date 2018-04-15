@@ -5,8 +5,8 @@ This website is fabricated for cleanliness and simplicity. Have a look on it now
 
 ## Features
 -	Fully compatible with all screen size.
--	Modern User Interface.
--	Page Section Slide animation.
+-	Modern user interface.
+-	Page section slide animation.
 ## Technology Used
 -	HTML
 -	CSS
